@@ -27,7 +27,7 @@
 
 							<h1 class="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<?php bloginfo( 'name' ); ?>
+									<?php bloginfo( 'name' ); ?><br><small><?php bloginfo( 'description' ); ?></small>
 								</a>
 							</h1>
 
@@ -35,7 +35,7 @@
 
 							<p class="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<?php bloginfo( 'name' ); ?>
+									<?php bloginfo( 'name' ); ?><br><small><?php bloginfo( 'description' ); ?></small>
 								</a>
 							</p>
 

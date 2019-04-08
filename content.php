@@ -29,7 +29,9 @@
 
 	<div class="entry-content">
 		<?php
-		the_content( esc_html__( 'Continue reading &rarr;', 'arke' ) );
+		if( ! is_front_page() ) {
+    		the_content( esc_html__( 'Continue reading &rarr;', 'arke' ) );
+			}
 
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'arke' ),
