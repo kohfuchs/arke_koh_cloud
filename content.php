@@ -19,17 +19,20 @@
 
 		<?php
 		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
+			the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			<small><p> <?php the_date($d); ?> - <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a></p></small>
+		<?php else :
+			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); 
+			?>
+			<small><p> <?php the_date($d); ?> - <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a></p></small>
+		<?php endif; 
 		?>
 
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php
-		if( ! is_front_page() ) {
+		if( ! is_front_page() && ! is_author() ) {
     		the_content( esc_html__( 'Continue reading &rarr;', 'arke' ) );
 			}
 
