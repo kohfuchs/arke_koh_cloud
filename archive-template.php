@@ -51,7 +51,6 @@ get_template_part( 'header' );
 				<?php
 				// translators: %1$s: theme name.
 				// translators: %2$s: theme author.
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'arke' ), '<a href="https://olympusthemes.com/themes/arke/">Arke</a>', 'Danny Cooper' );
 				?>
 		</footer><!-- .site-footer -->
 		<?php wp_footer(); ?>
