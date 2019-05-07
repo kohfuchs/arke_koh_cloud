@@ -44,6 +44,10 @@ get_template_part( 'header' );
 			</footer><!-- .site-footer -->
 		<?php endif; ?>
 		<?php wp_footer(); ?>
-		<?php load_more_button(); ?>
+		<?php
+		if ( !is_single()) { 
+			load_more_button(); 
+		}
+		?>
 	</body>
 </html>
