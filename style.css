@@ -702,6 +702,40 @@ body {
 	color: #3767b3;
 }
 
+/*------------------------------------------------------------*/
+
+.menu-2 {
+	font-size: 12px;
+	line-height: 1;
+}
+
+.menu-2 {
+	display: block;
+	float: right;
+}
+
+.menu-2 ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.menu-2 li {
+	float: left;
+	position: relative;
+}
+
+.menu-2 a {
+	display: block;
+	text-decoration: none;
+	color: #525252;
+	padding: 20px 0 20px 30px;
+}
+
+.menu-2 a:hover {
+	color: #3767b3;
+
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -848,7 +882,7 @@ body {
 --------------------------------------------------------------*/
 
 .site-footer {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid #000;
 	padding: 25px 0;
 	font-size: 14px;
 }
