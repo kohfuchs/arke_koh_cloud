@@ -1,4 +1,5 @@
  <footer class="site-footer">
+ 		KOH - &copy; <?php the_date('Y'); ?>
 	<nav id="site-navigation" class="menu-2">
 			<?php
 			wp_nav_menu( array(
