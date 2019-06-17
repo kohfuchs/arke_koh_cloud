@@ -28,11 +28,11 @@ get_template_part( 'header' );
 
 				</div><!-- .content-area -->
 		</div><!-- .site-content -->
-		<?php
-		if ( !is_single()) { 
-			load_more_button(); 
-		}
-		?>
+
+		<div class="navigation">
+			<?php posts_nav_link( ' -|- ', '&laquo; Neuere Beiträge', 'Ältere Beiträge &raquo;' ); ?>
+		</div>
+
 		<?php get_footer(); ?>
 	</body>
 </html>
