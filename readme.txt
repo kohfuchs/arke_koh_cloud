@@ -36,6 +36,9 @@ Arke includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
+= 1.0.* - Jun 17 2019 =
+* Versioning will be made after basic developing.
+
 = 1.0.1 - May 10 2018 =
 * Add notice
 
