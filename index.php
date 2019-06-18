@@ -30,7 +30,7 @@ get_template_part( 'header' );
 		</div><!-- .site-content -->
 
 		<div class="navigation">
-			<?php posts_nav_link( ' -|- ', '&laquo; Neuere Beiträge', 'Ältere Beiträge &raquo;' ); ?>
+			<?php echo paginate_links(); ?>
 		</div>
 
 		<?php get_footer(); ?>
