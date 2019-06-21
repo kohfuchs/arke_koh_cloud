@@ -28,11 +28,11 @@ get_template_part( 'header' );
 
 				</div><!-- .content-area -->
 		</div><!-- .site-content -->
-		<?php
-		if ( !is_single()) { 
-			load_more_button(); 
-		}
-		?>
+
+		<div class="paginate_links">
+			<?php echo paginate_links(); ?>
+		</div>
+
 		<?php get_footer(); ?>
 	</body>
 </html>
