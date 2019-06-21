@@ -29,7 +29,7 @@ get_template_part( 'header' );
 				</div><!-- .content-area -->
 		</div><!-- .site-content -->
 
-		<div class="navigation">
+		<div class="paginate_links">
 			<?php echo paginate_links(); ?>
 		</div>
 

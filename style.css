@@ -1026,3 +1026,21 @@ object {
 	}
 
 }
+
+/*--------------------------------------------------------------
+ * # paginate_links
+ * --------------------------------------------------------------*/
+
+.paginate_links {
+	padding: 5px 8px 10px;
+
+}
+
+.page-numbers {
+	margin: 5px;
+	
+}
+
+.page-numbers current {
+	font-weight: bold;
+}
