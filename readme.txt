@@ -1,12 +1,12 @@
 === Arke ===
 
-Contributors: DannyCooper
+Contributors: kohfuchs 
 Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.0.1
+Tested up to: 
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-GitHub Theme URI: https://github.com/DannyCooper/arke
+GitHub Theme URI: https://github.com/kohfuchs/arke_koh_cloud
 Tags: one-column, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, blog
 
 A starter theme called Arke.
@@ -22,22 +22,16 @@ Arke uses very minimal, low-specificity CSS rules, making it very easy to custom
 
 The clean, fast, standards-compliant code ensures Arke is Search Engine Optimized (SEO).
 
-== Installation ==
-
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
-
-== Frequently Asked Questions ==
-
-= Does this theme support any plugins? =
-
-Arke includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
-= 1.0.* - Jun 17 2019 =
-* Versioning will be made after basic developing.
+= 1.1.0 - Jun 21 2019 =
+* Add page Navigation
+* Add footer + footer menu
+* Style update
+* Front page update
+* Add date and author to frontpage an post view.
+* Smaller fixes. 
 
 = 1.0.1 - May 10 2018 =
 * Add notice
