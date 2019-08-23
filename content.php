@@ -32,7 +32,7 @@
 
 	<div class="entry-content">
 		<?php
-		if( ! is_front_page() && ! is_author() && ! is_category() ) {
+		if( ! is_front_page() && ! is_author() && ! is_category() && ! is_search() ) {
     		the_content( esc_html__( 'Continue reading &rarr;', 'arke' ) );
 			}
 
